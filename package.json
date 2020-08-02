@@ -1,0 +1,22 @@
+{
+  "name": "@epomatti/yolo-coordinates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epomatti/yolo-coordinates.git"
+  },
+  "author": "Evandro Pomatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epomatti/yolo-coordinates/issues"
+  },
+  "homepage": "https://github.com/epomatti/yolo-coordinates#readme",
+  "devDependencies": {
+    "jest": "^26.2.2"
+  }
+}
