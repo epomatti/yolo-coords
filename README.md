@@ -1,5 +1,7 @@
 # yolo coordinates
 
+![Node.js Package](https://github.com/epomatti/yolo-coords/workflows/Node.js%20Package/badge.svg)
+
 A tiny lib to get yolo coordinates (also called labels or annotations) from the .txt file as an array.
 
 ```
