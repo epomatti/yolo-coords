@@ -2,8 +2,6 @@
 
 A tiny lib to get yolo coordinates (also called labels or annotations) from the .txt file as an array.
 
-Install:
-
 ```
 npm i yolo-coords
 ```
