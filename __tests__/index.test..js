@@ -19,7 +19,8 @@ test('test coordinates 16', () => {
 test('Class not found', () => {
     const classNumber = '17'
     const fileName = 'sample.txt'
-    expect(() => { coords(classNumber, fileName) }).toThrow(`Did not found class [${classNumber}] in file [${fileName}]`);
+    const result = coords(classNumber, fileName)
+    expect(result).toBe(undefined);
 });
 
 test('File not found', () => {
