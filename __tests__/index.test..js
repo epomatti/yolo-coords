@@ -16,14 +16,14 @@ test('test coordinates 16', () => {
     expect(result[3]).toBe('0.828402');
 });
 
-test('Class not found', () => {
+test('class not found', () => {
     const classNumber = '17'
     const fileName = 'sample.txt'
     const result = coords(classNumber, fileName)
     expect(result).toBe(undefined);
 });
 
-test('File not found', () => {
+test('file not found', () => {
     const classNumber = '16'
     const fileName = 'not_a_file.txt'
     expect(() => { coords(classNumber, fileName) }).toThrow();
