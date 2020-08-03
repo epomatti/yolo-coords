@@ -1,6 +1,6 @@
 # yolo coordinates
 
-![yolo-coords](https://github.com/epomatti/yolo-coords/workflows/yolo-coords/badge.svg)
+![yolo-coords](https://github.com/epomatti/yolo-coords/workflows/yolo-coords/badge.svg) [![codecov](https://codecov.io/gh/epomatti/yolo-coords/branch/master/graph/badge.svg)](https://codecov.io/gh/epomatti/yolo-coords)
 
 A tiny lib to get yolo coordinates (also called labels or annotations) from the .txt file as an array.
 
