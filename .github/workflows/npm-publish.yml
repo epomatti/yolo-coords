@@ -14,6 +14,9 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm test
+      - run: bash <(curl -s https://codecov.io/bash)
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.CODECOV_TOKEN}}
 
   publish-npm:
     needs: build
@@ -27,11 +30,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}      
-  upload-codecov:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - run: bash <(curl -s https://codecov.io/bash)
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.CODECOV_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
