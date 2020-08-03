@@ -28,3 +28,10 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+  upload-codecov:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm publish
+        env: bash <(curl -s https://codecov.io/bash)
+          NODE_AUTH_TOKEN: ${{secrets.CODECOV_TOKEN}}

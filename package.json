@@ -1,6 +1,6 @@
 {
   "name": "yolo-coords",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tiny lib to get yolo coordinates (also called labels or annotations) from the .txt file as an array.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,15 @@
   "homepage": "https://github.com/epomatti/yolo-coords#readme",
   "devDependencies": {
     "jest": "^26.2.2"
-  }
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "keywords": [
+    "yolo",
+    "image-labels",
+    "coordinates",
+    "object-detection"
+  ]
 }
