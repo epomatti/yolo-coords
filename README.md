@@ -5,7 +5,7 @@
 A tiny helper lib to get YOLO labeling format `txt` coordinates as an array.
 
 ```js
-// reads class "16" coordinates fromt the txt file
+// reads class "16" coordinates from the txt file
 const coords = require('yolo-coords')
 const array = coords('16', 'sample.txt')
 console.log(array)
