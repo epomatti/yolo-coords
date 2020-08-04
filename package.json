@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/epomatti/yolo-coords#readme",
   "devDependencies": {
+    "coveralls": "^3.1.0",
     "jest": "^26.2.2"
   },
   "jest": {

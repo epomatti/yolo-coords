@@ -1,8 +1,9 @@
 name: yolo-coords
 
-on:
-  release:
-    types: [created]
+# on:
+#   release:
+#     types: [created]
+on: ["push", "pull_request"]
 
 jobs:
   build:
@@ -17,6 +18,11 @@ jobs:
       - run: bash <(curl -s https://codecov.io/bash)
         env:
           NODE_AUTH_TOKEN: ${{secrets.CODECOV_TOKEN}}
+          
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
   publish-npm:
     needs: build
