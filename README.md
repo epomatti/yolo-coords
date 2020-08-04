@@ -1,6 +1,6 @@
 # yolo coordinates
 
-![yolo-coords](https://github.com/epomatti/yolo-coords/workflows/yolo-coords/badge.svg) [![codecov](https://codecov.io/gh/epomatti/yolo-coords/branch/master/graph/badge.svg)](https://codecov.io/gh/epomatti/yolo-coords)
+![yolo-coords](https://github.com/epomatti/yolo-coords/workflows/yolo-coords/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/epomatti/yolo-coords/badge.svg?branch=master)](https://coveralls.io/github/epomatti/yolo-coords?branch=master)
 
 A tiny helper lib to get YOLO labeling format `txt` coordinates as an array.
 
