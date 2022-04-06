@@ -1,4 +1,4 @@
-const coords = require('../index')
+const coords = require('./index')
 
 test('coordinates', () => {
     const result = coords('15', 'sample.txt')
