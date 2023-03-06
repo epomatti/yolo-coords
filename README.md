@@ -22,7 +22,7 @@ console.log(array)
 [ '0.785185', '0.420118', '0.385185', '0.828402' ]
 ```
 
-The coordinates are also referred as 'labels' or 'annotations' and represent the position of an object within an imagem.
+The coordinates are also referred as 'labels' or 'annotations' and represent the position of an object within an image.
 
 <img src="docs/doggo.png"/>
 
