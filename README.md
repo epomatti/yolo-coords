@@ -4,6 +4,14 @@
 
 A tiny helper lib to get YOLO labeling format `txt` coordinates as an array.
 
+Get it from NPM:
+
+```
+npm i yolo-coords
+```
+
+Usage example:
+
 ```js
 // reads class "16" coordinates from the txt file
 const coords = require('yolo-coords')
@@ -23,10 +31,4 @@ A YOLO `txt` file looks likes this:
 ```
 15 0.235185 0.381657 0.396296 0.727811
 16 0.785185 0.420118 0.385185 0.828402
-```
-
-### Installing
-
-```
-npm i yolo-coords
 ```
